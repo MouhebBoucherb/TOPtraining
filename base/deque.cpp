@@ -32,5 +32,8 @@ int main()
     deque<char> copie(caracter);
     cout<<"la copie du tableau \"caractere\" est : ";
     afficher(copie);
+    caracter.pop_front();
+    afficher(caracter);
+     cout<<"le tableau \"carcter\" contien "<<caracter.size()<<" elements \n";
     return 0;
 }
